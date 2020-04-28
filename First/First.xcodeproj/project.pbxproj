@@ -18,6 +18,7 @@
 		93A02F4F2457B61B00656733 /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F4E2457B61B00656733 /* Converter.swift */; };
 		93A02F512457B66F00656733 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F502457B66F00656733 /* ConverterTests.swift */; };
 		93A02F532457C22500656733 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F522457C22500656733 /* LifeCycleTests.swift */; };
+		93A02F552458DF6E00656733 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F542458DF6E00656733 /* ThrowingTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		93A02F4E2457B61B00656733 /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 		93A02F502457B66F00656733 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		93A02F522457C22500656733 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
+		93A02F542458DF6E00656733 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				93A02F4324578FFC00656733 /* Info.plist */,
 				93A02F502457B66F00656733 /* ConverterTests.swift */,
 				93A02F522457C22500656733 /* LifeCycleTests.swift */,
+				93A02F542458DF6E00656733 /* ThrowingTests.swift */,
 			);
 			path = FirstTests;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 				93A02F512457B66F00656733 /* ConverterTests.swift in Sources */,
 				93A02F4224578FFC00656733 /* FirstTests.swift in Sources */,
 				93A02F532457C22500656733 /* LifeCycleTests.swift in Sources */,
+				93A02F552458DF6E00656733 /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
