@@ -22,6 +22,8 @@
 		93A02F512457B66F00656733 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F502457B66F00656733 /* ConverterTests.swift */; };
 		93A02F532457C22500656733 /* LifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F522457C22500656733 /* LifeCycleTests.swift */; };
 		93A02F552458DF6E00656733 /* ThrowingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A02F542458DF6E00656733 /* ThrowingTests.swift */; };
+		93C4DCAA248056AD006DA37D /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C4DCA9248056AD006DA37D /* House.swift */; };
+		93C4DCAC248056EB006DA37D /* HouseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C4DCAB248056EB006DA37D /* HouseTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		93A02F502457B66F00656733 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		93A02F522457C22500656733 /* LifeCycleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleTests.swift; sourceTree = "<group>"; };
 		93A02F542458DF6E00656733 /* ThrowingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowingTests.swift; sourceTree = "<group>"; };
+		93C4DCA9248056AD006DA37D /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
+		93C4DCAB248056EB006DA37D /* HouseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,7 @@
 				93A02F4C2457901600656733 /* Hater.swift */,
 				93A02F4E2457B61B00656733 /* Converter.swift */,
 				931F3DC0245C8AF200F4ACC3 /* PrimeCalculator.swift */,
+				93C4DCA9248056AD006DA37D /* House.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				93A02F522457C22500656733 /* LifeCycleTests.swift */,
 				93A02F542458DF6E00656733 /* ThrowingTests.swift */,
 				931F3DC2245C9F9D00F4ACC3 /* UserTests.swift */,
+				93C4DCAB248056EB006DA37D /* HouseTests.swift */,
 			);
 			path = FirstTests;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C4DCAA248056AD006DA37D /* House.swift in Sources */,
 				93A02F2F24578FFB00656733 /* ViewController.swift in Sources */,
 				93A02F2B24578FFB00656733 /* AppDelegate.swift in Sources */,
 				93A02F4D2457901600656733 /* Hater.swift in Sources */,
@@ -305,6 +312,7 @@
 				93A02F4224578FFC00656733 /* FirstTests.swift in Sources */,
 				931F3DC3245C9F9D00F4ACC3 /* UserTests.swift in Sources */,
 				93A02F532457C22500656733 /* LifeCycleTests.swift in Sources */,
+				93C4DCAC248056EB006DA37D /* HouseTests.swift in Sources */,
 				93A02F552458DF6E00656733 /* ThrowingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -30,25 +30,27 @@ class AsynchronousTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
+    
 
     
-    func testPrimesUpTo100ShouldBe0() {
-        
-        //given
-        let maxCount = 100
-        
-        //when
-        let progress = PrimeCalculator.calculate(upTo: maxCount) { (primeNumbers) in
-            XCTAssertEqual(primeNumbers.count, 25)
-            
-        }
-        
-        //then
-        let predicate = NSPredicate(format: "%@.completedUnitCount == %@", argumentArray: [progress, maxCount])
-        
-        let expectation = XCTNSPredicateExpectation(predicate: predicate, object: progress)
-        wait(for: [expectation], timeout: 10)
-    }
+//    func testPrimesUpTo100ShouldBe0() {
+//
+//        //given
+//        let maxCount = 100
+//
+//        //when
+//        let progress = PrimeCalculator.calculate(upTo: maxCount) { (primeNumbers) in
+//            XCTAssertEqual(primeNumbers.count, 25)
+//
+//        }
+//
+//        //then
+//        let predicate = NSPredicate(format: "%@.completedUnitCount == %@", argumentArray: [progress, maxCount])
+//
+//        let expectation = XCTNSPredicateExpectation(predicate: predicate, object: progress)
+//        wait(for: [expectation], timeout: 10)
+//    }
     
 //    func testPrimesUpTo100ShouldBe25() {
 //        //given
@@ -69,6 +71,13 @@ class AsynchronousTests: XCTestCase {
 //        //then
 //        wait(for: [expectation], timeout: 3)
 //    }
+    
+    func testPrimePerformance() { //Performance Testing
+        measure {
+            _ = PrimeCalculator.calculate(upTo: 1_000_000)
+        }
+    }
+    
     
     
 
